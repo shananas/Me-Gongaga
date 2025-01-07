@@ -1,0 +1,19 @@
+title: Refightable Sephiroth
+originalAuthor: Shananas
+game: kh2
+description: ROM version of Refightable Sephiroth. Should work on all game versions. Spawns an interactable Sephiroth NPC after beating him and re-entering the room. The heartless still spawn in the room.
+assets:
+- method: binarc
+  name: ard/us/hb01.ard
+  multi:
+  - name: ard/fr/hb01.ard
+  - name: ard/gr/hb01.ard
+  - name: ard/it/hb01.ard
+  - name: ard/sp/hb01.ard
+  - name: ard/hb01.ard
+  source:
+  - method: areadatascript
+    name: evt
+    source:
+    - name: ard/hb01evt.yml
+    type: AreaDataScript
